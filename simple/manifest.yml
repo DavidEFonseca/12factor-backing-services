@@ -3,7 +3,6 @@ applications:
 - name: simple-backing-services
   memory: 512M
   instances: 1
-  host: simple-backing-services-${random-word}
   path: target/simple.jar
   services:
     - postgresql-db
